@@ -1,31 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
 .banner{
     background-image: url('../../images/banner.jpg');
     background-color: #cccccc; 
-    height: 600px; 
+    height: 700px; 
     background-position: 0% 10%; 
     background-repeat: no-repeat; 
     background-size: cover;
 }
+.banner-heading {
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-size: 55px;
+}
 .myButton {
-	box-shadow: 3px 2px 20px 0px #899599;
-	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-	background-color:#ededed;
-	border-radius:27px;
-	border:3px solid #d6bcd6;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
 	display:inline-block;
 	cursor:pointer;
-	color:#3a8a9e;
+	color:#ffffff;
 	font-family:Arial;
-	font-size:24px;
-	padding:11px 37px;
+	font-size:20px;
+	font-weight:bold;
+	padding:7px 19px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
+	text-shadow:0px 1px 0px #528ecc;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-	background-color:#bab1ba;
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+@media only screen and (max-width:600px) {
+	.banner{
+		height: 600px;
+	}
 }

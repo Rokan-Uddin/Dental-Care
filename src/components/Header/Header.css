@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.title-1st{
+    color: rgb(226, 97, 220);
+}
+.title-2nd{
+    color: rgb(179, 255, 0);
+}
+.title-logo{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link:hover{
+    color: rgb(226, 97, 220) !important;
+}
+.logout-btn,.login-btn {
+    background: none;
+    border: none;
+}
+.login-btn:hover,.logout-btn:hover{
+    background:none;
+}
